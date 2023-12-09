@@ -12,7 +12,65 @@
         <h1>Apéritif<br></h1>
         <h2>Prêt à voter l'apéritif ?<br>C'est parti &#129299;</h2>
         <img class="banner" src="img/banner.jpg"/>
-        <button class="btn" role="button">Prêt pour les votes ? Démarrer</button>
+        <form action="save.php" method="POST">
+          <div class="div-label">
+            <label for="prenom-select">Note pour la cuisine</label>
+
+            <select name="reponse1" id="prenom-select">
+              <option value="">--Choisissez dans la liste--</option>
+              <option value="1">1 ⭐</option>
+              <option value="2">2 ⭐</option>
+              <option value="3">3 ⭐</option>
+              <option value="4">4 ⭐</option>
+              <option value="5">5 ⭐</option>
+              <option value="6">6 ⭐</option>
+              <option value="7">7 ⭐</option>
+              <option value="8">8 ⭐</option>
+              <option value="9">9 ⭐</option>
+              <option value="10">10 ⭐</option>
+            </select>
+          </div>
+          <div class="div-label">
+            <label for="prenom-select">Note pour l'ambiance</label>
+
+            <select name="reponse2" id="prenom-select">
+              <option value="">--Choisissez dans la liste--</option>
+              <option value="1">1 ⭐</option>
+              <option value="2">2 ⭐</option>
+              <option value="3">3 ⭐</option>
+              <option value="4">4 ⭐</option>
+              <option value="5">5 ⭐</option>
+              <option value="6">6 ⭐</option>
+              <option value="7">7 ⭐</option>
+              <option value="8">8 ⭐</option>
+              <option value="9">9 ⭐</option>
+              <option value="10">10 ⭐</option>
+            </select>
+          </div>
+          <div class="div-label">
+            <label for="prenom-select">Note pour la présentation</label>
+
+            <select name="reponse3" id="prenom-select">
+              <option value="">--Choisissez dans la liste--</option>
+              <option value="1">1 ⭐</option>
+              <option value="2">2 ⭐</option>
+              <option value="3">3 ⭐</option>
+              <option value="4">4 ⭐</option>
+              <option value="5">5 ⭐</option>
+              <option value="6">6 ⭐</option>
+              <option value="7">7 ⭐</option>
+              <option value="8">8 ⭐</option>
+              <option value="9">9 ⭐</option>
+              <option value="10">10 ⭐</option>
+            </select>
+          </div>
+          <div class="div-label">
+            <label for="prenom-select">Commentaire</label>
+
+            <textarea name="reponse4" placeholder="Votre commentaire" style="width: 80%; height: 7vh;"></textarea>
+          </div>
+          <button class="btn" type="submit" name="etape1">Confirmer</button>
+        </form>
       </div>
 
    </div>

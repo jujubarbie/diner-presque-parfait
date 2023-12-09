@@ -1,0 +1,178 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: auto;
+    overflow: auto;
+    background: linear-gradient(315deg, rgb(171, 0, 160) 3%, rgba(60,132,206,1) 38%, rgb(28, 168, 215) 58%, rgb(255, 10, 190) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: "Gill Sans", sans-serif;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 250;
+    font-family: "Gill Sans", sans-serif;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.etape
+{
+    min-height: 100vh;
+    width: 100%;
+    font-family: Calibri;
+    margin-bottom: 800px;
+}
+
+.etape h1
+{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.etape h2
+{
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.question
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.reponse-box
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.reponse-box .reponse-joueur
+{
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 10vw;
+    aspect-ratio: 1/1;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.1px);
+    -webkit-backdrop-filter: blur(6.1px);
+}
+
+.reponse-box .reponse-joueur .nom
+{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.reponse-box .reponse-joueur .reponse
+{
+    font-size: 30px;
+}
+
+.question .moyenne
+{
+    font-size: 50px;
+    width: 15vw;
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 400px;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.1px);
+    -webkit-backdrop-filter: blur(6.1px);
+}
+
+.question .moyenne .number
+{
+    font-size: 70px;
+}
+
+
+
+.reponse-box2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+
+.reponse-box2 .reponse-joueur2
+{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 40vw;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.1px);
+    -webkit-backdrop-filter: blur(6.1px);
+}
+
+.reponse-box2 .reponse-joueur2 .nom
+{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.reponse-box2 .reponse-joueur2 .reponse
+{
+    font-size: 24px;
+}
